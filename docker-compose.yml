@@ -1,0 +1,12 @@
+services:
+  jupyter:
+    image: jupyter/datascience-notebook:latest
+    container_name: mailchimp_etl
+    ports:
+      - "8888:8888"
+    volumes:
+      # Mount the local repository into the container so that any updates are reflected immediately.
+      - ./MailChimp_Databricks_ETL:/home/jovyan/work/MailChimp_Databricks_ETL
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    command: start-notebook.sh --NotebookApp.token=''
