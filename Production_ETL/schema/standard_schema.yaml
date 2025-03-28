@@ -1,0 +1,133 @@
+standard_schema:
+  - name: list_name
+    type: string
+    nullable: true
+  - name: consents_to_one_to_one_messaging
+    type: boolean
+    nullable: true
+  - name: contact_id
+    type: string
+    nullable: true
+  - name: email_address
+    type: string
+    nullable: true
+  - name: email_client
+    type: string
+    nullable: true
+  - name: email_type
+    type: string
+    nullable: true
+  - name: full_name
+    type: string
+    nullable: true
+  - name: id
+    type: string
+    nullable: true
+  - name: ip_opt
+    type: string
+    nullable: true
+  - name: ip_signup
+    type: string
+    nullable: true
+  - name: language
+    type: string
+    nullable: true
+  - name: last_changed
+    type: string
+    nullable: true
+  - name: list_id
+    type: string
+    nullable: true
+  - name: location_country_code
+    type: string
+    nullable: true
+  - name: location_dstoff
+    type: integer
+    nullable: true
+  - name: location_gmtoff
+    type: integer
+    nullable: true
+  - name: location_latitude
+    type: double
+    nullable: true
+  - name: location_longitude
+    type: double
+    nullable: true
+  - name: location_region
+    type: string
+    nullable: true
+  - name: location_timezone
+    type: string
+    nullable: true
+  - name: member_rating
+    type: integer
+    nullable: true
+  - name: merge_FNAME
+    type: string
+    nullable: true
+  - name: merge_LNAME
+    type: string
+    nullable: true
+  - name: merge_MMERGE5
+    type: string
+    nullable: true
+  - name: merge_PHONE
+    type: string
+    nullable: true
+  - name: address_addr1
+    type: string
+    nullable: true
+  - name: address_addr2
+    type: string
+    nullable: true
+  - name: address_city
+    type: string
+    nullable: true
+  - name: address_state
+    type: string
+    nullable: true
+  - name: address_zip
+    type: string
+    nullable: true
+  - name: address_country
+    type: string
+    nullable: true
+  - name: sms_phone_number
+    type: string
+    nullable: true
+  - name: sms_subscription_last_updated
+    type: string
+    nullable: true
+  - name: sms_subscription_status
+    type: string
+    nullable: true
+  - name: source
+    type: string
+    nullable: true
+  - name: stats_avg_click_rate
+    type: double
+    nullable: true
+  - name: stats_avg_open_rate
+    type: double
+    nullable: true
+  - name: status
+    type: string
+    nullable: true
+  - name: tags_count
+    type: integer
+    nullable: true
+  - name: timestamp_opt
+    type: string
+    nullable: true
+  - name: timestamp_signup
+    type: string
+    nullable: true
+  - name: unique_email_id
+    type: string
+    nullable: true
+  - name: vip
+    type: boolean
+    nullable: true
+  - name: web_id
+    type: integer
+    nullable: true
